@@ -1,7 +1,9 @@
 #include <iostream>
-#include "log.h"
+
+#define LOG(x) std::cout << x << std::endl
+
 
 int main ()
 {
-	Log("Hello World!");
+	LOG("Hello World");
 }
